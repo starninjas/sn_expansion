@@ -48,8 +48,8 @@ bb_schems.register_arena({
     name = "Aftermath",
     author = "StarNinjas",
     schem = schemdir.."aftermath.mts",
-    min = 4,
-    max = 6,
+    min = 5,
+    max = 8,
     spawns = {
         vector.new(16,1,16),
         vector.new(16,1,9),
