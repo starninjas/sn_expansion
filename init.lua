@@ -40,3 +40,27 @@ bb_schems.register_arena({
     },
     spectator_pos = vector.new(7,14,9),
 })
+
+--- Aftermath
+
+bb_schems.register_arena({
+    
+    name = "Aftermath",
+    author = "StarNinjas",
+    schem = schemdir.."aftermath.mts",
+    min = 4,
+    max = 6,
+    spawns = {
+        vector.new(16,1,16),
+        vector.new(16,1,9),
+		vector.new(16,1,2),
+		vector.new(2,1,2),
+		vector.new(2,1,9),
+		vector.new(2,1,16),
+		vector.new(9,1,2),
+		vector.new(9,1,16),
+	
+
+    },
+    spectator_pos = vector.new(9,11,9),
+})
